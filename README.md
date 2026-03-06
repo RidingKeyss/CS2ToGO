@@ -37,7 +37,7 @@ Future updates will include:
 
 - **Glove support**
 - **Operator / agent models**
-- Expanded cosmetic compatibility
+- **StatTrak pull from inventory**
 
 ---
 
