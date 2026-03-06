@@ -5,6 +5,51 @@ This server plugin allows players to use their **existing CS2 skins and loadouts
 
 ---
 
+## Installation
+
+This plugin requires **MetaMod:Source** and **SourceMod** to be installed on your CS:GO dedicated server.
+
+### Requirements
+
+- MetaMod:Source
+- SourceMod
+
+Make sure both are installed and functioning before installing this plugin.
+
+---
+
+### Install Steps
+
+1. Download the release package.
+
+2. Extract the contents.
+
+3. Copy the following folders into your **CS:GO dedicated server root**:
+addons/
+cfg/
+
+
+Allow files to **merge/overwrite if prompted**.
+
+---
+
+### SourceMod Configuration
+
+SourceMod must be configured to allow the plugin to operate correctly.
+
+Open:
+csgo/addons/sourcemod/configs/core.cfg
+
+Find the setting:
+"FollowCSGOServerGuidelines" "yes"
+
+Change it to:
+"FollowCSGOServerGuidelines" "no"
+
+Save the file.
+
+---
+
 ## Features
 
 ### CS2 Inventory Integration
